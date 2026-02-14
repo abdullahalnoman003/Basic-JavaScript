@@ -56,3 +56,14 @@ console.log(even);
 
 const newArray = [0,0, ...MulArray, 1, 2, 3, 4]; // this operator means to copy things from previous arrays 
 console.log(newArray);
+
+// Slice method, it receives an parameter of start and end index
+
+const sliced = newArray.slice(2, 7);
+console.log(sliced);
+
+// Splice an function to modify original Array
+// splice array.splice(startIndex, deleteCount, newItems)
+
+newArray.splice(1,5,999); // here 1 is the starting index, 5 means 5 element will be deleted, and 999 is the optional element to add
+console.log(newArray);

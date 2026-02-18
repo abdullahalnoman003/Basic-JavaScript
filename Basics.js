@@ -34,4 +34,3 @@ console.log(typeof variable);
 let able;
 console.log(typeof able);
 
-// 
